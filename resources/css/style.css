@@ -71,7 +71,6 @@ h2::after {
 h3 {
   font-size: 110%;
   margin-bottom: 15px;
-
 }
 /*------------ PARAGRAPH -------------*/
 
@@ -189,4 +188,29 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
+}
+
+/* ---------------------------------------- */
+/* MEALS */
+/* ---------------------------------------- */
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+}
+
+.meal-photo img {
+  width: 100%;
+  height: auto;
 }
